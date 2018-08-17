@@ -1,0 +1,160 @@
+  <link href="https://fonts.googleapis.com/css?family=Hanalei+Fill" rel="stylesheet">;
+  <link href="https://fonts.googleapis.com/css?family=Montez" rel="stylesheet">;
+  @import url('https://fonts.googleapis.com/css?family=Fascinate');
+</style>
+body{
+    margin:0
+}
+header{
+    background: black;
+    color: white;
+    padding:8px 0px 6px 60px;
+    height: 45px;
+}
+header h1{
+    display: inline;
+    font-family: 'Lobster', cursive;
+    font-weight: 500;
+    font-size: 32px;
+    float: left;
+    margin-top: 0px;
+    margin-right: 10px;
+
+
+}
+nav ul{
+    display: inline;
+    padding: 0px;
+    float: left;
+
+}
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    color: white;
+    float: left;
+    margin-left: 30px;
+
+    }
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+
+}
+
+#nav {
+    font-family:  font-family: 'Montez', cursive;
+}
+.homered {
+    background-color: red;
+    padding: 30px 10px 12px 10px;
+}
+.divider {
+    background-color: red;
+    height: 5px;
+}
+.homeblack:hover {
+    background-color: blue;
+    padding: 30px 10px 12px 1
+}
+.row {
+    height: 900px;
+    background-color: #22313F;
+    width: 300px
+}
+.pic_base {
+    height: 30%;
+    background-color: #59ABE3
+}
+#abc {
+    border: 12px black;
+    box-shadow: 0 2px 2px black;
+    margin-left: 300px;
+}
+.neon {
+    font-family: 'Fascinate', cursive;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    margin: 0;
+    padding: 0;
+    font-size: 4em;
+    color: #fff;
+    text-shadow: 0 0 20px #ff005b;
+}
+body {
+    background-image: url(hotelmars.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.aa {
+    text-align: center;
+    margin:100px 400px;
+
+
+}
+#registration {
+    width: 70%;
+    background-color: #051019;
+    opacity: 0.8;
+    padding: 50px 0px;
+}
+#k {
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: 0px;
+
+}
+#phone {
+    outline: 0px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+#ph {
+    outline: 0px;
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+#u {
+    color: white;
+}
+#r {
+    text-underline-position: !important;
+    color: pink;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

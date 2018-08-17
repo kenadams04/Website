@@ -1,0 +1,101 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="..\Website\menu.css">
+<link rel="stylesheet" type="text/css" href="..\Website\tabs.css">
+<link rel="stylesheet" type="text/css" href="..\Website\nav.css">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+h6
+{
+   color: green;
+}
+</style>
+</head>
+<body  bgcolor=#474e5d>
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="..\Website\about.html">About</a>
+    <a href="..\Website\services.html">Services</a>
+     <a href="..\Website\contact.html">Contact</a>
+  </div>
+</div>
+
+<span style="font-size:40px ;cursor:pointer" onclick="openNav()">&#9776; </span>
+<div><img src="..\Website\22.jpg"width="100%" height="350"></div>
+
+
+
+
+<div id="navbar">
+   <a class="active" href="..\Website\website.html">Home</a>
+  <a href="..\Website\mission.html">About the Mission</a>
+ <a href="..\Website\gallery.html">Gallery</a>
+  <a href="..\Website\timeline.html">Achievements</a>
+
+</div>
+<div class="row">
+  <div class="side">
+      <h1 style="font-family:Cooper Black; color:#ff5151">Our Mission:</h1>
+      <h5></h5>
+      <div  style="height:200px;"><img src="..\Website\header.jpg"width=100%></div>
+      <h3 style="font-family:Algerian; color:#ff5151">"Taking more and more passengers out into space will enable them, and us, to look both outwards and back but with a fresh perspective in both directions"</br></br>
+-Professor Stephen Hawking</h3>
+ 
+     
+  </div>
+  <div class="main">
+      <h2></h2>
+           <p><h2 style="font-family:Algerian; color:#ff5151">Space Organisation Of India...</h2>
+
+<h3 style="font-family:Lucida Calligraphy; color:#ef51ff">
+A human mission to Mars has been the subject of science fiction, aerospace engineering, and scientific proposals since the 19th century. The plans comprise proposals to land on Mars, eventually settling on and terraforming the planet, while utilizing its moons, Phobos and Deimos.</br>
+</br>
+
+The exploration of Mars has been a goal of national space programs for decades. Preliminary work for missions that would involve human explorers has been undertaken since the 1950s, with planned missions typically being stated as taking place 10 to 30 years in the future when they are drafted. The list of manned Mars mission plans in the 20th century shows the various mission proposals that have been put forth by multiple organizations and space agencies in this field of space exploration. Plans have varied from scientific expeditions in which a small (2 to 8) group visits Mars for a period of a few weeks or year, to the permanent colonization of Mars.
+</br>
+</br>
+In the 2010s, numerous American, European, and Chinese agencies were developing proposals for human missions to Mars. They are now developing and testing the technologies.
+
+Mars in fiction is a frequent target of exploration and settlement in books, graphic novels, and films.
+       </h3> </p>
+      <br>
+    <img src="..\Website\28.jpg" width="100%" height="500">
+      <p> <h2 style="font-family:Algerian; color:#ff5151">MARS ONE:</h2><h3 style="font-family:Lucida Calligraphy; color:#ef51ff">Space Organisation of India is Planning To Take A Huge Step In The History Of Mankind By Sending Humans To Mars.</br></br>
+Here's a great opportunity for the entusiastic who wants to explore beyond our limits.</br></br>
+SOI's mission "MARS ONE" aims to establish a permanent human settlement on Mars. Several unmanned missions will be completed, establishing a habitable settlement before carefully selected and trained crews will depart to Mars. Funding and implementing this plan will not be easy, it will be hard. The Mars One team, with its advisers and with established aerospace companies, will evaluate and mitigate risks and identify and overcome difficulties step by step. Mars One is a global initiative whose goal is to make this everyone’s mission to Mars, including yours. If we all work together, we can do this. We’re going to Mars. Come along!
+</h3>
+ </p>
+  </div>
+</div>
+
+<script>
+function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+}
+
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+
+
+</script>
+</body>
+</html>
